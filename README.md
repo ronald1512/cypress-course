@@ -13,7 +13,7 @@ El primer comando crea un nuevo archivo package.json, para iniciar un proyecto d
 El segundo comando instala cypress en el proyecto, esto es necesario para mantener separados los proyectos y manejar cypress desde cada uno. 
 
 ## Verificación
-Para verificar que cypress se haya instalado correctamente, ejecuta el siguiente comando. El cual abrirá una nueva ventana, tal como se muestra a continuación. 
+Para verificar que cypress se haya instalado correctamente, ejecuta el siguiente comando. El cual abrirá el gui de cypress, tal como se muestra a continuación. 
 
 ```shell
 npx cypress open
@@ -22,3 +22,10 @@ npx cypress open
 ![cypress-verification](./assets/cypress-verification.PNG)
 
 > Cypress test runner
+
+## Uso
+Para ejecutar las pruebas sin que se abra un navegador, util en ambientes de CI/CD, ejecuta el siguiente comando:
+
+```shell
+npx cypress run --headless
+```
