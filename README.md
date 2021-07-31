@@ -29,3 +29,12 @@ Para ejecutar las pruebas sin que se abra un navegador, util en ambientes de CI/
 ```shell
 npx cypress run --headless
 ```
+
+## Carpetas de cypress
+Por defecto cuando se instala cypress, este crea algunos folders. Los cuales se describen a continuacion:
+* **fixtures**: aqui vamos a colocar los datos quemados de prueba. Va a contener la dummy data que podrías utilizar cuando al hacer tests. Un caso de uso sería cuando no quieres jalar los datos de un api y mejor lo pruebas con los datos que almacenas en esta carpeta. 
+* **integration**: los archivos de pruebas (.test o .spec) se almacenan en este espacio para mantener un orden. Esta es la carpeta más importante. 
+* **pluggins**: aqui se almacenan características para expandir las funcionalidades de Cypress. Por ejemplo, agregar el manejo de oauth. 
+* **support**: En este forlder almacenas codigo reusable. 
+* **videos**: almacena la demostración en video de como se está comportando la ejecución de los test. Son grabaciones. Es util en CI/CD para verificar fallas. 
+
