@@ -1,5 +1,5 @@
 # E2E Testing using Cypress
-En el siguiente repositorio se detalla un resumen de lo aprendido en el curso de cypress. 
+En el siguiente repositorio se detalla un resumen de lo aprendido en el [curso de cypress](https://youtu.be/OIAzwr-_jhY). 
 
 ## Instalación
 
